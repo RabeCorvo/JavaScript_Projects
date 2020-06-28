@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(96, 182, 175);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ssn1 {
+    color: red;
+    font-style: italic;
+    font-size: large;
+    margin: 10px 50px;
+    display: inline;
+    animation-name: ani1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    width: 450px;
+    height: 410px;
+    padding-top: 25px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.junkform label {
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+input[type=text2] {
+    width: 75%;
+    padding: 12px 10px;
+    margin: 0px 50px;
+    box-sizing: border-box;
+    border: 4px solid red;
+    border-radius: 2px;
+}
+
+
+@keyframes ani1 {
+    from {
+        color: red;
+        font-style: italic;
+        }
+    to  {
+        color: yellow;
+        font-style: bold;
+        }       
+}
+
+#button {   
+    font-family:  Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px 39%;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+
+}
